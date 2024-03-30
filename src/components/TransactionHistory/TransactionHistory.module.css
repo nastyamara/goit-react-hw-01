@@ -1,0 +1,29 @@
+.container {
+    border: solid 2px black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+
+.header{
+    border: solid 2px black;
+
+}
+.data {
+    border: solid 2px black;
+    text-align: center;
+
+}
+.type {
+    display: inline-block;
+}
+
+.type::first-letter {
+    text-transform: uppercase;
+ 
+}
+
+.row:nth-child(even) {
+    background-color: lightgrey;
+}
